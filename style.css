@@ -1,0 +1,115 @@
+body{
+background-color: #FFEBC9;
+color: #c9873f;
+font-family: Courier;
+}
+
+
+h1{
+	color: #AA2B1D;
+	font-weight: bolder;
+	letter-spacing: 10px;
+	font-size:80px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+h2{
+	color: #AA2B1D;
+	font-weight: bold;
+	font-size: 45px;
+	font-family: 'Roboto Slab', serif;
+
+}
+p{
+	color:#FC997C;
+	font-size: 25px;
+	font-family:'Roboto Slab', serif;
+	font-weight: 300;
+}
+
+a{
+	color:#814e1a;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: lighter;
+}
+a:hover{color:#FC997C;}
+
+
+.img-circle{
+	border-radius: 75%;
+	
+
+}
+
+ /*Custom Design with class*/
+
+ .container{
+ 	width: 700px;
+ 	margin: 40px auto;
+ }
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+.img-circle{
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%; 
+}
+
+.btn-blue{
+	background-color: #AA2B1D;
+	color: white;
+	padding:15px 20px;
+	border-radius: 5%;
+
+}
+
+.btn-blue: hover {
+	background-color:white;
+}
+
+.list-inline{
+list-style: none;
+padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 60px;
+	color:#AA2B1D ;
+}
+.list-inline i hover{
+color: #AA2B1D;}
+
+
+#introduction p {
+margin-bottom: 40px;
+
+}
+
+@media (max-width: 500px) {
+.container {width: 400px;
+}
+}
+
+@media (max-width: 760px) {.container
+{width: 600px;
+}
+}
+
+
+
+
